@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>ГЛАВНАЯ СТРАНИЦА</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<h1>INSTAGRAM</h1>
+		<img src="img/1.jpg" width="300" height="150" alt="логотип инстаграм">
+	</header>
+
+	<main>
+
+		<div>
+			<h2>ВОЙТИ</h2>
+			<form name="vhod" method="post" action="feed.html">
+				<br>
+				<label>ИМЯ ПОЛЬЗОВАТЕЛЯ:<input type="text" name="imya" required placeholder="Ваше имя"></label>
+				<br>
+				<label>ПАРОЛЬ:<input type="password" name="parol" required placeholder="Ваш пароль"></label>
+				<br>
+				<input type="submit" name="vhod" value="ВХОД">
+			</form>
+		</div>
+
+		<div>
+			<h2>РЕГИСТРАЦИЯ</h2>
+			<form name="registr" method="post" action="feed.html">
+				<br>
+				<label>ВВЕДИТЕ ВАШЕ ИМЯ:<input type="text" name="vasheimya" required placeholder="Введите ваше имя"></label>
+				<br>
+				<label>ВВЕДИТЕ ПОЧТУ:<input type="email" name="pochta" required placeholder="Введите почту"></label>
+				<br>
+				<label>ВВЕДИТЕ ПАРОЛЬ:<input type="password" name="vashparol" required placeholder="Введите пароль"></label>
+				<br>
+				<label>ПОДТВЕРДИТЕ ПАРОЛЬ:<input type="password" name="vashparol2" required></label>
+				<br>
+				<input type="checkbox" name="soglasie" id="soglasie" required>
+				<label for="soglasie">Я согласен(на) с порядком обаботки персональных данных</label>
+				<br>
+				<input type="submit" name="vhod" value="ЗАРЕГИСТРИРОВАЬТСЯ">
+			</form>
+		</div>
+
+	</main>
+
+</body>
+</html>
