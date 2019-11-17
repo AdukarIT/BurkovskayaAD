@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Оформление заказа</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header>
+		<h1>Electron</h1>
+	</header>
+
+	<main>
+	
+		<div class="lineblock">
+			<h3 class="before">Бытовая техника</h3>
+			<ul class="after">
+				<li>Стиральные машины</li>
+				<li>Пылесосы</li>
+				<li>Швейные, вышивальные машины</li>
+				<li>Утюги</li>
+				<li>Электровеники</li>
+				<li>Сушилки для обуви</li>
+			</ul>
+		</div><!--
+
+		--><div class="lineblock">
+			<h3 class="before">Техника для кухни</h3>
+			<ul class="after">
+				<li>Холодильники</li>
+				<li>Кухонные плиты</li>
+				<li>Морозильники</li>
+				<li>Настольные плиты</li>
+				<li>Ростеры, мини-печи</li>
+				<li>Вытяжки</li>
+				<li>Микроволновые плечи</li>
+			</ul>
+		</div><!--
+
+		--><div class="lineblock">
+			<h3 class="before">Компьтерная техника</h3>
+			<ul class="after">
+				<li>Ноутбуки</li>
+				<li>Планшеты</li>
+				<li>Компьютеры, моноблоки</li>
+				<li>Игровые приставки</li>
+				<li>Серверное оборудование</li>
+			</ul>
+		</div><!--
+	
+		--><div class="lineblock">
+			<h3 class="before">Корзина</h3>
+		</div>
+	
+
+		<form action="#" method="post" name="send">
+			
+			<div class="form">			
+				<label>Фамилия и имя:
+					<input class="right text" name="Yourname" placeholder="Ваше ФИО" required>
+				</label>
+			</div>
+				
+			<div class="form">					
+				<label>Номер телефона:
+					<input class="right text" type="tel" name="Telephone" placeholder="Ваш номер телефона" required>
+				</label>
+			</div>	
+			
+			<div class="form">
+				<label>E-mail:
+					<input class="right text" type="email" name="Email" placeholder="Ваша почта" required>
+				</label>
+			</div>	
+
+			<div class="form">
+				<p>Выберите способ доставки:</p>
+				
+				<input type="radio" name="Choose" id="Sklad" required>
+				<label class="inline">Самовывоз со склада по адресу </label>
+				
+			
+
+						
+				<label class="inline Chehov" for="map">Чехова 3</label><input id="map" type="checkbox" name="map">
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.9873655538017!2d27.527702539156806!3d53.914200419786724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc56019249ca3%3A0xd0687ea4435c3cda!2z0YPQu9C40YbQsCDQp9C10YXQvtCy0LAgMywg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1573496243837!5m2!1sru!2sby" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+			</div>	
+				
+			<div class="form">			
+				<input type="radio" name="Choose" id="Kur" required>
+				<label for="Kur">Курьером по Минску</label>
+
+							
+				<label class="address">
+					Введите ваш адрес
+					<input class="right text" type="text" name="Address" id="Adress" placeholder="Введите адрес" value="Адрес" required>
+				</label>
+			</div>	
+
+			<div class="form">
+				<label>Комментарий:
+					<input class="right text" type="text" name="Comment" placeholder="Ваш комментарий" >
+				</label>
+			</div>	
+
+			<div class="form">
+				<label for="Yes">Я прочитал(а) и согласен(а) с <a href="#"> условиями доставки</a></label>
+				<input id="Yes" type="checkbox" name="Yes" required>
+
+				<div class="submit">
+					<input class="right button" type="submit" name="send" value="Отправить">
+				</div>
+			</div>
+		</form>
+	</main>
+
+
+
+		
+	<footer>
+		<div class="contacts"><p>Время работы магазина - 24/7</p></div><!--
+		--><div class="contacts"><p>Адрес офиса - Чехова, 3</p></div><!--
+		--><div class="contacts"><p>+1234567890</p></div><!--
+		--><div class="contacts"><p>Skype - Electron</p></div>
+	</footer>
+
+</body>
+</html>

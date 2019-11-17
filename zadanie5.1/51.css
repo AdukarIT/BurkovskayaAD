@@ -1,0 +1,8 @@
+
+div {
+   background-image: url(sun.png), url(sea.jpg), url(sky.jpg);
+   height: 100vh;
+   background-repeat: no-repeat, repeat-x, repeat-x;
+   background-size: 10%, 100% 30%, contain;
+   background-position: 10% 10%, bottom;
+}
