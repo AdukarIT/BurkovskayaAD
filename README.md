@@ -11,3 +11,6 @@ https://jsfiddle.net/Lbmorzgd/
 [Задание 1](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie4)
 ## ДОМАШНЕЕ ЗАДАНИЕ 5
 [Задание 1](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie5.1)
+[Задание 2](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie5.2)
+[Задание 3](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie5.3)
+[Задание 4](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie5.4)
