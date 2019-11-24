@@ -1,0 +1,27 @@
+#Checked{
+	display:none;
+}
+
+label{
+	display:inline-block;
+	cursor:pointer;
+}
+
+.icon-ok-outline{
+	display: none;
+} 
+
+#Checked:checked ~ .icon-ok-outline{
+	display:inline-block;
+}
+
+.icon-ok{
+	display: inline-block;
+} 
+
+
+#Checked:checked ~ .icon-ok{
+	display:none;
+
+}
+

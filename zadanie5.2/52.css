@@ -1,0 +1,25 @@
+#check{
+	display:none;
+}
+
+.icon-thumbs-up{
+	color:grey;
+	font-size:40px;
+}
+
+.icon-thumbs-up:hover{
+	cursor:pointer;
+	color:blue;
+	font-size:40px;
+}
+
+#check:checked + .icon-thumbs-up{
+	color:red;
+	font-size:40px;
+}
+
+#check:checked + .icon-thumbs-up:hover{
+	color:red;
+	opacity: 0.7;
+	font-size:40px;
+}

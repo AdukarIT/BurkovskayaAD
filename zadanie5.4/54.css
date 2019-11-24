@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+}
+
+
+.logotype{
+	width: 15%;	
+	display: inline-block;
+	box-sizing:border-box;
+}
+
+.logo-elements{
+	display: inline-block;
+	vertical-align: top;
+	width:85%;
+}
+
+.forma{
+	width: 85%;
+	vertical-align: top;
+	margin-bottom: 10px;
+}
+
+.search{
+	outline:none;
+	display: inline-block;
+	cursor:pointer;
+	box-sizing:border-box;
+	font-size:16px;
+	color:pink;
+	height: 30px;
+	width:50%;
+	border:5px solid pink;
+}
+
+.button{
+	outline:none;
+	display: inline-block;
+	cursor:pointer;
+	box-sizing:border-box;
+	font-size:16px;
+	height: 40px;
+	width: 15%;
+	border:5px solid pink;
+	color: grey;
+}
+
+.menu{
+	width:100%;
+}
+
+.menuTitle{
+	margin-right: 2%;
+	display: inline-block;
+	cursor:pointer;
+	box-sizing:border-box;
+	font-size:16px;
+	height: 30px;
+	width: 20%;
+	border:5px solid pink;
+	color: grey;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+}
