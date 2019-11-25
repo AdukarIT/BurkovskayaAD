@@ -1,0 +1,171 @@
+main{
+	width: 100%;
+}
+
+body{
+	margin: 0;
+}
+
+header{
+	background-color: darksalmon; 
+}
+
+#logo{
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+}
+
+h1{
+	font-size: 70px;
+	display: inline-block;
+	color: indigo;
+	text-align: top;
+	margin: 0;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+article{
+	background-color: wheat;
+}
+
+.food-photo{
+	width:100%;
+	box-sizing: border-box;
+}
+
+h2{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	text-align: center;
+	font-size: 35px;
+	color: slateblue;
+	margin: 0;
+}
+
+article > p {
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	text-align: center;
+	font-size: 20px;
+	color: slategray;
+	margin: 5px;
+}
+
+nav{
+	background-color: darksalmon;
+}
+
+nav > p{
+	font-size: 30px;
+	display: inline-block;
+	cursor:pointer;
+	box-sizing:border-box;
+	width: 19%;
+	margin: 0;
+	text-align: center;
+	color: indigo;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	margin: 0;
+	color: black;
+}
+
+footer{
+	margin-top: 5px;
+	background-color: indianred;
+}
+
+footer > p{
+	margin: 0;
+	font-size: 20px;
+	cursor:pointer;
+	text-align: center;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+@media (max-width: 900px) and (min-width: 600px){
+
+	nav{
+		height: 100%;
+		width: 20%;
+		display: inline-block;
+	}
+
+	article{
+		width: 80%;
+		float: right;
+		height: 300px;
+		border-bottom: 1px solid darksalmon;
+	}
+
+	nav > p{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	footer{
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	}
+
+	.food-photo{
+		width:50%;
+		float: left;
+	}
+
+	article > p{
+		text-align: left;
+	}
+
+	#special{
+		margin-bottom: 600px;
+	}
+
+}
+
+@media (min-width: 900px){
+	nav{
+		height: 100%;
+		width: 20%;
+		display: inline-block;
+	}
+
+	article{
+		width: 80%;
+		float: right;
+		height: 300px;
+		border-bottom: 1px solid darksalmon;
+	}
+
+	nav > p{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	footer{
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	}
+
+	.food-photo{
+		width:50%;
+		float: left;
+	}
+
+	article > p{
+		text-align: left;
+	}
+
+	#special{
+		margin-bottom: 650px;
+	}
+
+	.location{
+		float: right;
+	}
+
+}
