@@ -18,3 +18,5 @@ https://jsfiddle.net/Lbmorzgd/
 [Задание 1](https://github.com/AdukarIT/BurkovskayaAD/tree/master/practica1)
 ## ПРАКТИКА 2
 [Задание 1](https://github.com/AdukarIT/BurkovskayaAD/tree/master/practica2)
+## ДОМАШНЕЕ ЗАДАНИЕ 6
+[Задание 1](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie6.1)
