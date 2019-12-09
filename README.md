@@ -20,3 +20,7 @@ https://jsfiddle.net/Lbmorzgd/
 [Задание 1](https://github.com/AdukarIT/BurkovskayaAD/tree/master/practica2)
 ## ДОМАШНЕЕ ЗАДАНИЕ 6
 [Задание 1](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie6.1)
+## ДОМАШНЕЕ ЗАДАНИЕ 7
+[Задание 1](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie7.1)
+[Задание 2](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie7.2)
+[Задание 3](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie7.3)

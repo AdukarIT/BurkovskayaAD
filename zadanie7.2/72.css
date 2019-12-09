@@ -1,0 +1,8 @@
+img{
+	width: 150px;
+	transition:transform 2s ease-out;
+}
+
+img:hover{
+	transform:rotate(1080deg);
+}

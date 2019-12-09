@@ -1,0 +1,27 @@
+
+.check{
+	display: none;
+}
+
+body{
+	width: 1000px;
+}
+
+img{
+	width: 150px;
+	height: 150px;
+}
+
+.ball{
+	transition: transform 2s ease-out,
+	margin 2s ease-out;
+	display: inline-block;
+}
+
+#check:checked ~ .ball{
+	margin-left: calc(100% - 150px);
+	transform: rotate(360deg);
+}
+
+
+

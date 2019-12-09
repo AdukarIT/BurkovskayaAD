@@ -1,0 +1,22 @@
+.sub-zero{
+	background-image: url(sheet.jpg);
+	height: 135px;
+	width: 66px;
+}
+
+.sub-zero:hover{
+	animation: my-animation 0.3s;
+	animation-timing-function: steps(6);
+}
+
+@keyframes my-animation{
+
+	0%{
+		background-position:462px;
+	}
+
+	100%{
+		background-position: 66px;
+	}
+}
+
