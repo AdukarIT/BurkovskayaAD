@@ -1,0 +1,43 @@
+.header{
+	width: 100%;
+	font-size: 50px;
+	font-family: Arial, sans-serif;
+	border-bottom: 2px solid $text_color;
+	margin:0;
+
+	.logo-and-name{
+		width: 40%;
+		display: inline-block;
+		vertical-align: top;
+		margin:0;
+		.logo-and-name__logo{
+			display: inline-block;
+		}
+		.logo-and-name__name{
+			display: inline-block;
+			vertical-align: top;
+			padding-top: 50px;
+		}
+	}
+
+	.menu{
+		width: 59%;
+		display: inline-block;
+		.menu__link{
+		display: inline-block;
+		margin:0;
+			a{
+				padding-top: 60px;
+				display: inline-block;
+				text-decoration: none;
+				color: $text_color;
+				font-size: 30px;
+				vertical-align: top;
+				padding-right: 10px;
+				&:hover{
+					color: $hover_color;
+				}
+			}
+		}
+	}	
+}

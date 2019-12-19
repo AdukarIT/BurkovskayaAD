@@ -1,0 +1,17 @@
+.contacts{
+	width: 100%;
+	border-top: 2px solid $text_color;
+	font-family: Arial, sans-serif;
+	.contacts-name{
+		text-align: center;
+		font-size: 30px;
+		padding-top: 10px;
+	}
+	.special{
+		margin: 0;
+		font-size: 25px;
+		width: (99%/3);
+		text-align: center;
+		display: inline-block;
+	}
+}
