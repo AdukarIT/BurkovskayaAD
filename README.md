@@ -25,6 +25,8 @@ https://jsfiddle.net/Lbmorzgd/
 [Задание 1](https://github.com/AdukarIT/BurkovskayaAD/tree/master/practica2)
 ## ДОМАШНЕЕ ЗАДАНИЕ 6
 [Сайт Адукара (флекс-боксы)](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie6.1)
+
+[Сайт Vk (флекс-боксы)](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie6.2)
 ## ДОМАШНЕЕ ЗАДАНИЕ 7
 [Мяч (анимация)](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie7.1)
 
