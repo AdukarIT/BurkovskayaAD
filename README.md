@@ -32,4 +32,10 @@ https://jsfiddle.net/Lbmorzgd/
 
 [Сабзиро (анимация)](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie7.3)
 ## ДОМАШНЕЕ ЗАДАНИЕ 8
-[НОВЫЙ Сервис ремонта мобильных телефонов (scss)](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie6.1)
+[НОВЫЙ Сервис ремонта мобильных телефонов (scss)](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie8.1)
+## ФИНАЛЬНЫЙ ПРОЕКТ 1
+[Страничка 1](https://burkovskayaad.github.io/PROJECT1/project1.html)
+
+[Страничка 2](https://burkovskayaad.github.io/PROJECT1/project2.html)
+
+[Страничка 3](https://burkovskayaad.github.io/PROJECT1/project3.html)
