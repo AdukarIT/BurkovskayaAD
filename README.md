@@ -41,3 +41,5 @@ https://jsfiddle.net/Lbmorzgd/
 [Страничка 2](https://burkovskayaad.github.io/PROJECT1/project2.html)
 
 [Страничка 3](https://burkovskayaad.github.io/PROJECT1/project3.html)
+## ДОМАШНЕЕ ЗАДАНИЕ 9
+[Основы JS](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie9)
