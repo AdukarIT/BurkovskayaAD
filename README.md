@@ -43,3 +43,7 @@ https://jsfiddle.net/Lbmorzgd/
 [Страничка 3](https://burkovskayaad.github.io/PROJECT1/project3.html)
 ## ДОМАШНЕЕ ЗАДАНИЕ 9
 [Основы JS](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie9)
+## ДОМАШНЕЕ ЗАДАНИЕ 10
+[Функции JS](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie10)
+## ПРАКТИКА 3
+[Задания](https://github.com/AdukarIT/BurkovskayaAD/tree/master/practica3)

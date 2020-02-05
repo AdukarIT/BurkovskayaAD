@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>pr</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script>
+		
+		/////////////////////1
+		/*function first(){
+		 	x = +prompt("Введите первый катет");
+		 	y = +prompt("Введите второй катет");
+		 	z = +prompt("Введите гипотенузу");
+		 	if (x ** 2 + y ** 2 == z ** 2) {
+		 		return true;
+			}
+			return false;
+		}
+
+		console.log(first());*/
+
+		//////////////////////2
+		/*function repeat(str = '', n=2){
+			var stn = str;
+			for (var i = 2; i <= n; i++) {
+				stn = stn + str;
+			}
+			return stn;
+		}
+
+		console.log(repeat("a1", 5));*/
+
+		///////////////////////3
+		/*function third(x, y){
+			if (x % 2)
+				x++;
+			var z = y * 2;
+			if (x === z) {
+				console.log("Парт хватает всем");
+			} else if (x > z) {
+				console.log("Не хватает " + ((x-z)/2) + " парт");
+			} else{
+				console.log( ((z-x)/2)+ " лишняя парта");
+			}
+		}
+
+		let x = +prompt("Введите количество учеников");
+		let y = +prompt("Введите количество парт");
+		third(x, y);*/
+
+
+		////////////////////////4
+		/*function four(x){
+			x = +x;
+			switch(x){
+				case 1: 
+					console.log("Отвратительно");
+					break;
+				case 2: 
+					console.log("Ужасно");
+					break;
+				case 3: 
+					console.log("Очень плохо");
+					break;
+				case 4: 
+					console.log("Плохо");
+					break;
+				case 5: 
+					console.log("Более менее");
+					break;
+				case 6: 
+					console.log("Нормально");
+					break;
+				case 7: 
+					console.log("Хорошо");
+					break;
+				case 8: 
+					console.log("Очень хорошо");
+					break;
+				case 9: 
+					console.log("Отлично");
+					break;
+				case 10: 
+					console.log("Превосходно");
+					break;
+				default:
+					console.log("Ошибка!");
+			}
+		}
+
+		four(0);*/
+
+		////////////////////5
+		/*function five(){
+			let x;
+			do{
+				x = +prompt("Ведите число");
+			} while (x != 0);
+		}
+
+		five();*/
+
+		////////////////////6
+		/*function six(){
+			let x;
+			let y = 0;
+			do{
+				x = +prompt("Ведите число");
+				y = y + x;
+			} while (y < 100);
+		}
+
+		six();*/
+
+		////////////////////7
+		/*function seven(x) {
+			let sum = 0;
+			for (var i = 1; i <= x; i++) {
+				if (x % i === 0 ) {
+					sum = sum + 1;
+				}
+			}
+			if (sum === 2) {
+				return true;
+			} 
+			return false;
+		}
+
+		console.log(seven(11));*/
+
+		////////////////////8
+		/*function eight(x){
+			x = +x;
+			switch(x){
+				case 1: 
+					console.log("Зима");
+					break;
+				case 2: 
+					console.log("Зима");
+					break;
+				case 3: 
+					console.log("Весна");
+					break;
+				case 4: 
+					console.log("Весна");
+					break;
+				case 5: 
+					console.log("Весна");
+					break;
+				case 6: 
+					console.log("Лето");
+					break;
+				case 7: 
+					console.log("Лето");
+					break;
+				case 8: 
+					console.log("Лето");
+					break;
+				case 9: 
+					console.log("Осень");
+					break;
+				case 10: 
+					console.log("Осень");
+					break;
+				case 11: 
+					console.log("Осень");
+					break;
+				case 12: 
+					console.log("Зима");
+					break;
+				default:
+					console.log("Ошибка!");
+			}
+		}
+
+		eight(0);*/
+
+		/////////////////////9
+		/*function nine(){
+			let x = 10;
+			for (let i = 99; i >= x; i--) {
+				if ( i % 7 === 0 || i % 10 === 7) {
+					console.log(i);
+				}
+			}
+		}
+
+		nine();*/
+
+		//////////////////12
+		/*function twelve(size, unit){
+			switch(unit){
+				case "кб":
+					return size = size * 2**10;
+					break;
+				case "мб":
+					return size = size * 2**20;
+					break;
+				case "гб":
+					return size = size *  2**30;
+					break;
+				default:
+					console.log("Ошибка!");					
+			}
+		}
+
+		console.log(twelve(5, "мб"));*/
+
+		////////////////////15
+		/*function fifteen(n){
+
+			let x = n % 10;
+
+			if (n == 1) {
+				console.log("1 карандаш");
+			} else if ( x == 0 || x >= 5 && x <=10 ) {
+				console.log(n + " карандашей");
+			} else {
+				console.log(n + " карандашa");
+			}
+		}
+
+		fifteen(15);*/
+		
+
+	</script>
+
+</body>
+</html>
