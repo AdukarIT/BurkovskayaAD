@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>11</title>
+</head>
+<body>
+	<script>
+
+		//////////////////////////////1
+		function one(len){
+			let arr = new Array(len);
+			for(let i = 0; i < len; i++){
+				arr[i] = Math.floor(Math.random() * 51);
+			}
+			return arr;
+		}
+
+
+		//////////////////////////////2
+		function two(arr){
+			let x = 0;
+			for (let i = 0; i < arr.length; i++) {
+				x = x + arr[i];
+			}
+			let y = 0;
+			y = x / arr.length;
+
+			for (let i = 0; i < arr.length; i++) {
+				if (arr[i] > y) {
+					console.log(arr[i])
+				}
+			}
+		}	
+
+		// two(one(20));
+
+
+		////////////////////////////////////3
+		function three(arr){
+			let smaller = Infinity;
+			let smallest = Infinity;
+
+			for(let i = 0; i < arr.length; i++){
+				if(arr[i] < smallest){
+					smallest = arr[i];
+				}
+			}
+
+			for(let i = 0; i < arr.length; i++){
+				if(arr[i] < smaller && arr[i] > smallest){
+					smaller = arr[i];
+				}
+			}
+
+			
+			return [smaller, smallest]; 
+		}
+
+		// console.log(three(one(30));
+
+
+
+		////////////////////////////4
+		function four(arr){
+			let count = -1;
+			let temp;
+			console.log(arr);
+			for(let i = 0; i < arr.length; i++){
+				if(arr[i] < 3){
+					arr[i] = 0;
+					for(let j = i; j < arr.length; j++){
+						if(j == arr.length - 1){
+							arr[j] = 0;
+							break;
+						}
+						temp = arr[j];
+						arr[j] = arr[j + 1];
+						arr[j + 1] = temp;
+					}
+				}
+			}
+			return arr;
+		}
+
+		// console.log(four(one(20)));
+
+
+		/////////////////////////5
+		function five(arr1, arr2){
+			if(arr1.length != arr2.length){
+				return 'error';
+			}
+			console.log(arr1);
+			console.log(arr2);
+			let arr = new Array(arr1.length);
+
+			let j = arr1.length - 1;
+			for(let i = 0; i < arr1.length; i++){
+				arr[i] = arr1[i] + arr2[j];
+				j--;
+			}	
+
+			return arr;
+		}
+
+		// console.log(five(one(10), one(10)));
+
+
+		////////////////////////////////6
+		function six(arr) {
+			let temp = 0;
+			console.log(arr);
+			for (let i = 0; i < arr.length; i++) {
+				for (let j = i + 1; j < arr.length; j++) {
+					if (arr[i] > arr[j]) {
+						temp = arr[i];
+						arr[i] = arr[j];
+						arr[j] = temp;
+					}
+				}
+			}
+			return arr;
+		}
+
+		// console.log(six(one(10)));
+
+
+
+	</script>
+</body>
+</html>

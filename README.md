@@ -47,3 +47,5 @@ https://jsfiddle.net/Lbmorzgd/
 [Функции JS](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie10)
 ## ПРАКТИКА 3
 [Задания](https://github.com/AdukarIT/BurkovskayaAD/tree/master/practica3)
+## ДОМАШНЕЕ ЗАДАНИЕ 11
+[Массивы JS](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie11)
