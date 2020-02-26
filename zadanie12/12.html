@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>12</title>
+</head>
+<body>
+	<script>
+		/////////////////1
+		function searchProp(obj, str){
+			for(prop in obj){
+				if(prop == str)
+					return true;
+			}
+			return false;
+		}
+
+		// console.log(func({country: 'Belarus', capital:'Minsk', population: '9500000'}, 'population'));
+
+
+		/////////////////2
+		let recepie = {
+			name: "пельмени",
+
+			ingred: {
+				'Вода': '1500g',
+				'Пельмени': '600g',
+				'Соль': '30g'
+			},
+
+			portions: 3
+		};
+
+		recepie.ingrForPortion = function(obj){
+			console.log(this.name);
+
+			for(prop in this.ingred){
+				let ing = Number(this.ingred[prop].split('g').join(''));
+				let port = ing / this.portions;
+
+				console.log(prop + " " + port + " g");
+			}
+		}
+
+		// recepie.ingrForPortion();
+
+
+
+		//////////////////////3
+		let cilinder = {
+			radius: 3,
+			height: 5,
+
+			volume: function () {
+				return 3.14 * this.radius ** 2 * this.height;
+			}
+		}
+
+		// console.log(cilinder.volume());
+
+
+
+		///////////////////////////4
+
+		let pinguin = {
+			name: 'Рядовой',
+			film: 'Мадагаскар',
+			company: 'Dreamworks',
+
+			isFlying: false,
+
+			sayHello: function() {
+				console.log('привет, меня зовут ' + this.name + '. Я из фильма ' + this.film + ' компании ' + this.company + '!');
+			},
+
+			canFly: function () {
+				let str;
+				if(this.isFlying == true)
+					str = 'умею';
+				else
+					str = 'не умею';
+
+
+				console.log('Я ' + str + " летать");
+			}
+		}
+
+		// pinguin.sayHello();
+		// pinguin.canFly();
+
+
+
+
+
+	</script>
+</body>
+</html>
