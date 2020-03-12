@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		//1-2
+		function transformArr(arr) {
+			let objectsArr = [];
+			for(let i = 0; i < arr.length; i++){
+				let temp = {};
+				temp.initial = arr[i];
+				temp.sqrt = Math.sqrt(arr[i]);
+				
+				if(Math.floor(temp.sqrt) == Math.round(temp.sqrt)){
+					temp.floor = true;
+				}else{
+					temp.floor = false;
+				}
+
+				if(Math.ceil(temp.sqrt) == Math.round(temp.sqrt)){
+					temp.ceil = true;
+				}else{
+					temp.ceil = false;
+				}
+
+				temp.roundingHungredths = Math.round(temp.sqrt*100)/100;
+
+				objectsArr[i] = temp;
+			}
+
+			return objectsArr;
+		}
+		// console.log(transformArr([4, 25, 12, 100, 144, 17]));
+
+
+		//3
+		function palindrom(str){
+			str = str.toLowerCase();
+			arr = str.split('');
+			for (let i = 0; i < arr.length; i++) {
+				if ( arr[i] == '' || arr[i] == ' ' || arr[i] == '.' || arr[i] == ',' || arr[i] == ';' || arr[i] == ':' || arr[i] == '!' || arr[i] == '?' || arr[i] == '-' ||arr[i] == '—') {
+					arr.splice(i,1);
+				}
+			}
+
+			for(let i = 0, j = arr.length - 1; i < j; i++, j--){
+				if(arr[i] != arr[j]){
+					return false;
+				}
+			}
+			return true;
+		}
+
+		//4
+		function getSymbolArray(str) {
+			let arr = str.split('');
+			let arrSymb = [];
+			let arrSymbCurIdx = 0;
+			let isExist;
+			for(let i= 0; i < arr.length; i++){
+				isExist = false;
+				for(let j = 0; j < arrSymb.length; j++){
+					if(arr[i] == arrSymb[j]){
+						isExist = true;
+						break;
+					}
+				}
+				if(!isExist){
+					arrSymb[arrSymbCurIdx] = arr[i];
+					arrSymbCurIdx++;
+				}	
+			}
+			
+			let rangeArr = new Array(arrSymb.length);
+
+			for(let i = 0; i < arrSymb.length; i++){
+				let counter = 0;
+				for(let j = 0; j < arr.length; j++){
+					if(arrSymb[i] == arr[j])
+						counter++;
+				}
+				rangeArr[i] = counter;
+			}
+
+			let max = 0;
+			for(let i = 0; i < rangeArr.length; i++){
+				if(rangeArr[i] >= max){
+					max = rangeArr[i];
+				}
+			}
+
+			let resArr = [];
+
+			for(let i = 0; i < rangeArr.length; i++){
+				if(rangeArr[i] == max){
+					resArr.push(arrSymb[i]);
+				}
+			}
+
+
+			return resArr;
+		}
+
+		// console.log(getSymbolArray("annushkaa"));
+
+		//5
+		function replacement(str, search, replace) {
+			let arrStr = str.split('');
+			let firstSymbSearch = search.split('')[0];
+			let idx = 0;
+			while(idx != -1){
+				idx = arrStr.indexOf(firstSymbSearch, idx);
+				if(idx == -1){
+					break;
+				}
+				let isCorrespond = true;
+				for(let i = 0; i < search.length; i++){
+					if(search[i] != arrStr[i + idx]){
+						isCorrespond = false;
+					}
+				}
+				if(isCorrespond){
+					arrStr.splice(idx, search.length, replace);
+				}
+				idx ++;
+			}
+			return arrStr.join('');
+		}
+
+		// console.log(replacement('у меня есть собака', 'собака', 'котик'));
+
+		//6
+		function smallToBig(str) {
+			let arr = str.split(' ');
+			for(let i = 0; i < arr.length; i++){
+				let word = arr[i].split('');
+				word[0] = word[0].toUpperCase();
+				word = word.join('');
+				arr[i] = word;
+			}
+
+			return arr.join(' ');
+		}
+
+		// console.log(smallToBig('какая-то строка для проверки'));
+
+		//7
+		function replaceToStar(str) {
+			let arr = str.split('');
+			for(let i = 0; i < str.length - 1; i++){
+				for(let j = i + 1; j < str.length; j++){
+					if(arr[i] == arr[j] && arr[i] != '*' && arr[i] != ' '){
+						arr[j] = '*';
+					}
+				}
+			}
+			return arr.join('');
+		}
+		
+		// console.log(replaceToStar('я учусь программированию'));
+
+		//8
+		function returnDate(date = new Date) {
+			let day = date.getDay();
+			switch(day){
+				case 0:
+					return 'Воскресенье';
+				case 1:
+					return 'Понедельник';
+				case 2:
+					return 'Вторник';
+				case 3:
+					return 'Среда';
+				case 4:
+					return 'Четверг';
+				case 5:
+					return 'Пятница';
+				case 6:
+					return 'Суббота';						
+			}
+		}
+
+		// console.log(returnDate());
+
+
+		//9
+		function dateReturn() {
+			let dateStr = prompt('введите датув формате ДД-ММ-ГГГГ: ');	
+			let day = Number(dateStr.split('-')[0]);
+			let month = Number(dateStr.split('-')[1]);
+			let year = Number(dateStr.split('-')[2]);
+
+			let date = new Date();
+			date.setFullYear(year);
+			date.setMonth(--month);
+			date.setDate(day);
+			return returnDate(date);
+		}
+
+		// console.log(dateReturn());
+
+
+	</script>
+</body>
+</html>
