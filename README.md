@@ -53,3 +53,5 @@ https://jsfiddle.net/Lbmorzgd/
 [Объекты JS](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie12)
 ## ДОМАШНЕЕ ЗАДАНИЕ 13
 [Встроенные возможности JS](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie13)
+## ДОМАШНЕЕ ЗАДАНИЕ 14
+[Продвинутый JS](https://github.com/AdukarIT/BurkovskayaAD/tree/master/zadanie14)
